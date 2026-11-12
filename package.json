@@ -1,0 +1,29 @@
+{
+  "name": "agent-intent-gate",
+  "version": "0.1.0",
+  "description": "A zero-dependency intent + delivery-authorization gate for agent tool calls: decides whether a turn may act, and whether creating a new file was actually authorized.",
+  "license": "MIT",
+  "author": "Douya CLAW",
+  "type": "commonjs",
+  "main": "src/intent-gate.js",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.mjs"
+  },
+  "keywords": [
+    "agent",
+    "llm",
+    "tool-use",
+    "permission",
+    "guardrail",
+    "intent"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
